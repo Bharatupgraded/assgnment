@@ -26,3 +26,20 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+
+Please create a simple blog app in rails, where – 
+
+-	You are the author and can create private blog entries. Every blog entry should have its own unique password.
+-	Provide the functionality to be able to share the link to an individual blog to any number of users.
+So, when you click on ‘share’ next to a blog, you display a text area to accept email addresses separated by commas.
+Send a mail to each of those users with the link to that particular blog.
+-	When the user clicks on this link he should be redirected to the browser, where
+He is asked to enter his email and the unique password for this particular blog.
+
+-	Once validated successfully redirect to particular blog’s show page, else display an error page saying no permissions.
+
+You can use scaffolding for the blog structure.
+Use any database you find comfortable.
+Use gmail smtp settings to send mail.
+Use your own approach regarding how you will be sharing the blog’s unique password with the user
